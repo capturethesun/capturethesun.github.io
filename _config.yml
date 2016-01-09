@@ -1,0 +1,35 @@
+safe: true
+paginate: 5
+highlighter: pygments
+markdown: kramdown
+
+name: Capture the Sun
+url: http://capturethesunband.com
+author: Capture the Sun
+
+exclude:
+  - dot/*.dot
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      nav: true
+      ads: false
+
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      share: true
+
+  - scope:
+      path: ""
+      type: drafts
+    values:
+      layout: post
+      comments: false
+      #ads: false

@@ -1,0 +1,8 @@
+{% for category in site.data.blogroll %}
+<h3>{{category.title | xml_escape}}</h3>
+<ul class="side-nav">
+  {% for item in category.items %}
+    <li><a href="{{item.url}}">{{item.name | xml_escape}}</a></li>
+  {% endfor %}
+</ul>
+{% endfor %}

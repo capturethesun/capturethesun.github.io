@@ -1,0 +1,123 @@
+.fill-parent {
+	height: 2000px;
+	bottom: 0px;
+}
+
+.highlight {
+	background: #222222;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 1.25rem;
+  overflow-x: scroll;
+}
+
+.sidebar {
+  background: #f4f4f4;
+  bottom: 100%;
+  margin-bottom: 10px;
+}
+
+.side-nav li {
+  /* font-size: 0.77778rem; */
+}
+
+.content {
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-bottom: 50px;
+}
+
+.byline {
+  margin-bottom: 10px;
+}
+
+.sharing {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.sharing .sharing-network {
+  display: inline;
+  margin: 10px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.sharing .facebook {
+}
+
+.sharing .twitter {
+}
+
+byline {
+  font-size: 0.8em;
+  color: #888888;
+}
+
+.post-wrapper {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #DDDDDD;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+code {
+  color: #884444;
+}
+
+li a { text-decoration: underline; }
+p a { text-decoration: underline; }
+
+h1 a { text-decoration: none; }
+h2 a { text-decoration: none; }
+h3 a { text-decoration: none; }
+h4 a { text-decoration: none; }
+h5 a { text-decoration: none; }
+h6 a { text-decoration: none; }
+
+#fb {
+
+}
+
+#twitter {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+img.boom-headshot {
+  float: left;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.main-menu {
+  text-decoration: none;
+}
+
+.main-menu-item {
+  text-decoration: none;
+}
+
+.sub-nav {
+  margin-bottom: 0px;
+}
+
+.twitter-tweet {
+  width: auto;
+  display: table;
+  margin: 0 auto;
+}
+
+.moneyquote {
+  font-size: 1.4em;
+  font-style: italic;
+  border: none;
+  text-align: center;
+  color: #008cba;
+}
