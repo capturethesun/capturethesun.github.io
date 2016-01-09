@@ -82,10 +82,16 @@ h5 a { text-decoration: none; }
 h6 a { text-decoration: none; }
 
 #fb {
-
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #twitter {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#bc {
   padding-top: 10px;
   padding-bottom: 10px;
 }
